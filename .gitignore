@@ -1,0 +1,12 @@
+# Ignore the virtual environment
+.venv/
+venv/
+ENV/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore large video files (Optional - GitHub has a 100MB limit)
+# If your .mp4 files are small, you can remove the line below.
+# *.mp4
